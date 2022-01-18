@@ -1,0 +1,12 @@
+airbrake,false,warn,{}
+bugsnag,false,warn,"{""key"":""""}"
+disk,false,info,{}
+eventlog,false,warn,{}
+loggly,false,warn,"{""token"":"""",""subdomain"":""""}"
+logstash,false,warn,{}
+newrelic,false,warn,{}
+papertrail,false,warn,"{""host"":"""",""port"":0}"
+raygun,false,warn,{}
+rollbar,false,warn,"{""key"":""""}"
+sentry,false,warn,"{""key"":""""}"
+syslog,false,warn,{}

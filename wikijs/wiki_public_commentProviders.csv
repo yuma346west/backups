@@ -1,0 +1,3 @@
+commento,false,"{""instanceUrl"":""https://cdn.commento.io""}"
+default,true,"{""akismet"":"""",""minDelay"":30}"
+disqus,false,"{""accountName"":""""}"

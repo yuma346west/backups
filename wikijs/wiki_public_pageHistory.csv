@@ -1,0 +1,204 @@
+1,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,ヴァイスシュヴァルツ　ホロライブ,ヴァイスシュヴァルツのホロライブ限定Wiki,false,true,"","",updated,1,"# Header
+Your content here",markdown,2022-01-18T14:31:40.729Z,markdown,en,1,2022-01-18T14:13:49.091Z,{}
+2,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,ヴァイスシュヴァルツ　ホロライブ,ヴァイスシュヴァルツのホロライブ限定Wiki,false,true,"","",updated,1,"# トップページ
+ヴァイスシュヴァルツ ホロライブ専用Wikiへようこそ
+このページに載っているカードセット名やカードの名称及びテキストの著作権はブシロード、及び各参入企業が持っています。
+サイト内のこれらの情報は商品から引用されています。
+
+ヴァイスシュヴァルツ公式HP
+https://ws-tcg.com/
+
+ホロライブ公式HP
+https://www.hololive.tv/
+
+",markdown,2022-01-18T14:34:48.223Z,markdown,en,1,2022-01-18T14:31:43.785Z,{}
+3,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,ヴァイスシュヴァルツ　ホロライブ,ヴァイスシュヴァルツのホロライブ限定Wiki,false,true,"","",updated,1,"# トップページ
+誰でもページの作成・編集が可能です。皆様のご協力をお待ちしております。
+
+
+",markdown,2022-01-18T14:34:55.883Z,markdown,en,1,2022-01-18T14:34:51.252Z,{}
+4,Development/PHP,b357c6ae79c85516d50b438f28870006b925fa8f,PHP Programing,PHPプログラムについて,false,true,"","",updated,2,"# PHPプログラミング
+## Laravel
+### make clean
+これに含まれるコマンドはこれらのキャッシュファイルを削除する目的で実行されます。 
+Laravelはconfigやenvファイルの値をキャッシュファイルにして、フレームワークの処理速度向上に役立てています。
+そのためこれらのファイルを書き換えても、サービスはキャッシュを使用し続けるため反映されません。
+
+",markdown,2022-01-18T14:45:14.990Z,markdown,en,1,2022-01-18T14:39:53.392Z,{}
+5,Development/PHP/Laravel,98451e9bc7811ac8e478ff4da33eb07786aa4c6f,Laravel,Laravel開発について,false,true,"","",updated,3,"# Laravel
+Your content here",markdown,2022-01-18T14:47:44.280Z,markdown,en,1,2022-01-18T14:46:20.157Z,{}
+6,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,ヴァイスシュヴァルツ　ホロライブ,ヴァイスシュヴァルツのホロライブ限定Wiki,false,true,"","",updated,1,"# トップページ
+誰でもページの作成・編集が可能です。皆様のご協力をお待ちしております。
+
+
+",markdown,2022-01-18T14:48:38.015Z,markdown,en,1,2022-01-18T14:34:58.882Z,{}
+7,Development/PHP,b357c6ae79c85516d50b438f28870006b925fa8f,PHP Programing,PHPプログラムについて,false,true,"","",moved,2,"# PHPプログラミング
+
+Laravel
+
+- make clean
+これに含まれるコマンドはこれらのキャッシュファイルを削除する目的で実行されます。 
+Laravelはconfigやenvファイルの値をキャッシュファイルにして、フレームワークの処理速度向上に役立てています。
+そのためこれらのファイルを書き換えても、サービスはキャッシュを使用し続けるため反映されません。
+
+- ",markdown,2022-01-18T14:49:08.543Z,markdown,en,1,2022-01-18T14:45:18.062Z,{}
+8,Development/PHP/home,f7b2d5a3b42b0dd7b4eeb66693082a1933089bb6,PHP Programing,PHPプログラムについて,false,true,"","",updated,2,"# PHPプログラミング
+
+Laravel
+
+- make clean
+これに含まれるコマンドはこれらのキャッシュファイルを削除する目的で実行されます。 
+Laravelはconfigやenvファイルの値をキャッシュファイルにして、フレームワークの処理速度向上に役立てています。
+そのためこれらのファイルを書き換えても、サービスはキャッシュを使用し続けるため反映されません。
+
+- ",markdown,2022-01-18T14:49:52.681Z,markdown,en,1,2022-01-18T14:49:08.546Z,{}
+9,Development/PHP/Carbon,d0492cc7dba60f750f4bafd622e7d65480d1eeda,Carbon,日付ライブラリ Carbonについて,false,true,"","",updated,4,"# Carbon
+Datetimeクラスを拡張した日付ライブラリです
+
+サファリでは主に使用する日付ライブラリです。
+
+```現在の時刻からインスタンスを生成
+$carbon = Carbon::now();
+echo $carbon; // 2018-08-24 13:07:27
+```
+
+#### 参考URL
+[公式document](https://carbon.nesbot.com/docs/)
+[Github](https://github.com/briannesbitt/carbon)
+[Qiita PHPで日付時刻処理を書くならCarbonを使うべき](https://qiita.com/yudsuzuk/items/ff894bd0b76d4657741d)
+
+",markdown,2022-01-18T15:01:00.094Z,markdown,en,1,2022-01-18T14:58:11.253Z,{}
+10,Development/PHP/Carbon,d0492cc7dba60f750f4bafd622e7d65480d1eeda,Carbon,日付ライブラリ Carbonについて,false,true,"","",updated,4,"# Carbon
+Datetimeクラスを拡張した日付ライブラリです
+
+サファリでは主に使用する日付ライブラリです。
+
+### 使用例
+```
+// 現在の時刻からインスタンスを生成
+$carbon = Carbon::now();
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+// 日時形式の文字列からインスタンスを作成
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+// formatメソッド (指定した書式の日時フォーマットを返す)
+echo $carbon->format('Y-m-d H:i:s'); // 2022-01-01 03:04:05
+```
+
+#### 参考URL
+[公式document](https://carbon.nesbot.com/docs/)
+[Github](https://github.com/briannesbitt/carbon)
+[Qiita PHPで日付時刻処理を書くならCarbonを使うべき](https://qiita.com/yudsuzuk/items/ff894bd0b76d4657741d)
+
+",markdown,2022-01-18T15:01:37.082Z,markdown,en,1,2022-01-18T15:01:03.276Z,{}
+11,Development/PHP/home,f7b2d5a3b42b0dd7b4eeb66693082a1933089bb6,PHP Programing,PHPプログラムについて,false,true,"","",updated,2,"# PHPプログラミング
+
+[Laravelについて](/Development/PHP/Laravel)",markdown,2022-01-18T15:02:52.298Z,markdown,en,1,2022-01-18T14:49:55.697Z,{}
+12,Development/PHP/home,f7b2d5a3b42b0dd7b4eeb66693082a1933089bb6,PHP Programing,PHPプログラムについて,false,true,"","",moved,2,"# PHPプログラミング
+
+[Laravelについて](/Development/PHP/Laravel)",markdown,2022-01-18T15:02:55.267Z,markdown,en,1,2022-01-18T15:02:55.226Z,{}
+13,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,ヴァイスシュヴァルツ　ホロライブ,ヴァイスシュヴァルツのホロライブ限定Wiki,false,true,"","",updated,1,"# トップページ
+誰でもページの作成・編集が可能です。皆様のご協力をお待ちしております。
+
+[PHP 開発](/Development/PHP/home)
+",markdown,2022-01-18T15:03:16.813Z,markdown,en,1,2022-01-18T14:49:09.851Z,{}
+14,Development/PHP,b357c6ae79c85516d50b438f28870006b925fa8f,PHP Programing,PHPプログラムについて,false,true,"","",updated,2,"# PHPプログラミング
+
+[Laravelについて](/Development/PHP/Laravel)",markdown,2022-01-18T15:04:22.606Z,markdown,en,1,2022-01-18T15:02:55.269Z,{}
+15,Development/PHP,b357c6ae79c85516d50b438f28870006b925fa8f,PHP Programing,PHPプログラムについて,false,true,"","",moved,2,"# PHPプログラミング
+
+[Laravelについて](/PHP/Laravel)",markdown,2022-01-18T15:04:25.772Z,markdown,en,1,2022-01-18T15:04:25.729Z,{}
+16,Development/PHP/Carbon,d0492cc7dba60f750f4bafd622e7d65480d1eeda,Carbon,日付ライブラリ Carbonについて,false,true,"","",updated,4,"# Carbon
+Datetimeクラスを拡張した日付ライブラリです
+
+サファリでは主に使用する日付ライブラリです。
+
+### 使用例
+```
+// 現在の時刻からインスタンスを生成
+$carbon = Carbon::now();
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+// 日時形式の文字列からインスタンスを作成
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+// formatメソッド (指定した書式の日時フォーマットを返す)
+echo $carbon->format('Y-m-d H:i:s'); // 2022-01-01 03:04:05
+```
+
+# 参考URL
+[公式document](https://carbon.nesbot.com/docs/)
+[Github](https://github.com/briannesbitt/carbon)
+[Qiita PHPで日付時刻処理を書くならCarbonを使うべき](https://qiita.com/yudsuzuk/items/ff894bd0b76d4657741d)
+
+",markdown,2022-01-18T15:04:56.529Z,markdown,en,1,2022-01-18T15:01:40.288Z,{}
+17,Development/PHP/Carbon,d0492cc7dba60f750f4bafd622e7d65480d1eeda,Carbon,日付ライブラリ Carbonについて,false,true,"","",moved,4,"# Carbon
+Datetimeクラスを拡張した日付ライブラリです
+
+サファリでは主に使用する日付ライブラリです。
+
+### 使用例
+```
+// 現在の時刻からインスタンスを生成
+$carbon = Carbon::now();
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+// 日時形式の文字列からインスタンスを作成
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+// formatメソッド (指定した書式の日時フォーマットを返す)
+echo $carbon->format('Y-m-d H:i:s'); // 2022-01-01 03:04:05
+```
+
+# 参考URL
+[公式document](https://carbon.nesbot.com/docs/)
+[Github](https://github.com/briannesbitt/carbon)
+[Qiita PHPで日付時刻処理を書くならCarbonを使うべき](https://qiita.com/yudsuzuk/items/ff894bd0b76d4657741d)
+
+",markdown,2022-01-18T15:04:59.798Z,markdown,en,1,2022-01-18T15:04:59.755Z,{}
+18,Development/PHP/Laravel,98451e9bc7811ac8e478ff4da33eb07786aa4c6f,Laravel,Laravel開発について,false,true,"","",updated,3,"# Laravel
+
+- make clean
+これに含まれるコマンドはこれらのキャッシュファイルを削除する目的で実行されます。
+Laravelはconfigやenvファイルの値をキャッシュファイルにして、フレームワークの処理速度向上に役立てています。
+そのためこれらのファイルを書き換えても、サービスはキャッシュを使用し続けるため反映されません。
+",markdown,2022-01-18T15:05:24.237Z,markdown,en,1,2022-01-18T14:47:47.314Z,{}
+19,Development/PHP/Laravel,98451e9bc7811ac8e478ff4da33eb07786aa4c6f,Laravel,Laravel開発について,false,true,"","",moved,3,"# Laravel
+
+- make clean
+これに含まれるコマンドはこれらのキャッシュファイルを削除する目的で実行されます。
+Laravelはconfigやenvファイルの値をキャッシュファイルにして、フレームワークの処理速度向上に役立てています。
+そのためこれらのファイルを書き換えても、サービスはキャッシュを使用し続けるため反映されません。
+",markdown,2022-01-18T15:05:27.364Z,markdown,en,1,2022-01-18T15:05:27.317Z,{}
+20,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,ヴァイスシュヴァルツ　ホロライブ,ヴァイスシュヴァルツのホロライブ限定Wiki,false,true,"","",updated,1,"# トップページ
+誰でもページの作成・編集が可能です。皆様のご協力をお待ちしております。
+
+[PHP 開発](/Development/PHP)
+",markdown,2022-01-18T15:06:02.851Z,markdown,en,1,2022-01-18T15:03:19.911Z,{}
+21,PHP,fcbf04aacd2db4c75e1b0d873a6b76c67cb0e966,PHP Programing,PHPプログラムについて,false,true,"","",updated,2,"# PHPプログラミング
+
+[Laravelについて](/PHP/Laravel)",markdown,2022-01-18T15:07:07.456Z,markdown,en,1,2022-01-18T15:05:28.627Z,{}
+22,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,ヴァイスシュヴァルツ　ホロライブ,ヴァイスシュヴァルツのホロライブ限定Wiki,false,true,"","",updated,1,"# トップページ
+誰でもページの作成・編集が可能です。皆様のご協力をお待ちしております。
+
+[PHP 開発](/PHP)
+",markdown,2022-01-18T15:08:51.614Z,markdown,en,1,2022-01-18T15:06:05.981Z,{}

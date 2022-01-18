@@ -1,0 +1,92 @@
+1,home,b29b5d2ce62e55412776ab98f05631e0aa96597b,サーバ開発Wiki,サーバ開発Wiki,false,true,,"","","# トップページ
+誰でもページの作成・編集が可能です。皆様のご協力をお待ちしております。
+
+[PHP](/PHP)
+
+[JavaScript](/JavaScript)
+
+[MySQL](/MySQL)
+
+[Docker](/Docker)
+
+[Git](/Git)
+","<h1 class=""toc-header"" id=""トップページ""><a href=""#トップページ"" class=""toc-anchor"">¶</a> トップページ</h1>
+<p>誰でもページの作成・編集が可能です。皆様のご協力をお待ちしております。</p>
+<p><a class=""is-internal-link is-valid-page"" href=""/PHP"">PHP</a></p>
+<p><a class=""is-internal-link is-invalid-page"" href=""/JavaScript"">JavaScript</a></p>
+<p><a class=""is-internal-link is-invalid-page"" href=""/MySQL"">MySQL</a></p>
+<p><a class=""is-internal-link is-invalid-page"" href=""/Docker"">Docker</a></p>
+<p><a class=""is-internal-link is-invalid-page"" href=""/Git"">Git</a></p>
+","[{""title"":""トップページ"",""anchor"":""#トップページ"",""children"":[]}]",markdown,2022-01-18T14:13:46.091Z,2022-01-18T15:08:54.848Z,markdown,en,1,1,"{""js"":"""",""css"":""""}"
+3,PHP/Laravel,bdaa8e0e33b8087e5293dde5fa3dde7434cbf91f,Laravel,Laravel開発について,false,true,,"","","# Laravel
+
+- make clean
+これに含まれるコマンドはこれらのキャッシュファイルを削除する目的で実行されます。
+Laravelはconfigやenvファイルの値をキャッシュファイルにして、フレームワークの処理速度向上に役立てています。
+そのためこれらのファイルを書き換えても、サービスはキャッシュを使用し続けるため反映されません。
+","<h1 class=""toc-header"" id=""laravel""><a href=""#laravel"" class=""toc-anchor"">¶</a> Laravel</h1>
+<ul>
+<li>make clean<br>
+これに含まれるコマンドはこれらのキャッシュファイルを削除する目的で実行されます。<br>
+Laravelはconfigやenvファイルの値をキャッシュファイルにして、フレームワークの処理速度向上に役立てています。<br>
+そのためこれらのファイルを書き換えても、サービスはキャッシュを使用し続けるため反映されません。</li>
+</ul>
+","[{""title"":""Laravel"",""anchor"":""#laravel"",""children"":[]}]",markdown,2022-01-18T14:46:17.106Z,2022-01-18T15:05:27.367Z,markdown,en,1,1,"{""js"":"""",""css"":""""}"
+2,PHP,fcbf04aacd2db4c75e1b0d873a6b76c67cb0e966,PHP Programing,PHPプログラムについて,false,true,,"","","# PHPプログラミング
+
+[Laravelについて](/PHP/Laravel)
+
+[Carbonについて](/PHP/Carbon)","<h1 class=""toc-header"" id=""phpプログラミング""><a href=""#phpプログラミング"" class=""toc-anchor"">¶</a> PHPプログラミング</h1>
+<p><a class=""is-internal-link is-valid-page"" href=""/PHP/Laravel"">Laravelについて</a></p>
+<p><a class=""is-internal-link is-valid-page"" href=""/PHP/Carbon"">Carbonについて</a></p>
+","[{""title"":""PHPプログラミング"",""anchor"":""#phpプログラミング"",""children"":[]}]",markdown,2022-01-18T14:39:50.157Z,2022-01-18T15:07:10.611Z,markdown,en,1,1,"{""js"":"""",""css"":""""}"
+4,PHP/Carbon,3deacd789165701eb959d676bcf2c2b3e4aeb7ca,Carbon,日付ライブラリ Carbonについて,false,true,,"","","# Carbon
+Datetimeクラスを拡張した日付ライブラリです
+
+サファリでは主に使用する日付ライブラリです。
+
+### 使用例
+```
+// 現在の時刻からインスタンスを生成
+$carbon = Carbon::now();
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+// 日時形式の文字列からインスタンスを作成
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+echo $carbon; // 2022-01-01 03:04:05
+```
+
+```
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+// formatメソッド (指定した書式の日時フォーマットを返す)
+echo $carbon->format('Y-m-d H:i:s'); // 2022-01-01 03:04:05
+```
+
+# 参考URL
+[公式document](https://carbon.nesbot.com/docs/)
+[Github](https://github.com/briannesbitt/carbon)
+[Qiita PHPで日付時刻処理を書くならCarbonを使うべき](https://qiita.com/yudsuzuk/items/ff894bd0b76d4657741d)
+
+","<h1 class=""toc-header"" id=""carbon""><a href=""#carbon"" class=""toc-anchor"">¶</a> Carbon</h1>
+<p>Datetimeクラスを拡張した日付ライブラリです</p>
+<p>サファリでは主に使用する日付ライブラリです。</p>
+<h3 class=""toc-header"" id=""使用例""><a href=""#使用例"" class=""toc-anchor"">¶</a> 使用例</h3>
+<pre v-pre=""true"" class=""prismjs line-numbers""><code class=""language-"">// 現在の時刻からインスタンスを生成
+$carbon = Carbon::now();
+echo $carbon; // 2022-01-01 03:04:05
+</code></pre>
+<pre v-pre=""true"" class=""prismjs line-numbers""><code class=""language-"">// 日時形式の文字列からインスタンスを作成
+$carbon = Carbon::parse('2022/01/01 03:04:05');
+echo $carbon; // 2022-01-01 03:04:05
+</code></pre>
+<pre v-pre=""true"" class=""prismjs line-numbers""><code class=""language-"">$carbon = Carbon::parse('2022/01/01 03:04:05');
+// formatメソッド (指定した書式の日時フォーマットを返す)
+echo $carbon-&gt;format('Y-m-d H:i:s'); // 2022-01-01 03:04:05
+</code></pre>
+<h1 class=""toc-header"" id=""参考url""><a href=""#参考url"" class=""toc-anchor"">¶</a> 参考URL</h1>
+<p><a class=""is-external-link"" href=""https://carbon.nesbot.com/docs/"">公式document</a><br>
+<a class=""is-external-link"" href=""https://github.com/briannesbitt/carbon"">Github</a><br>
+<a class=""is-external-link"" href=""https://qiita.com/yudsuzuk/items/ff894bd0b76d4657741d"">Qiita PHPで日付時刻処理を書くならCarbonを使うべき</a></p>
+","[{""title"":""Carbon"",""anchor"":""#carbon"",""children"":[]},{""title"":""参考URL"",""anchor"":""#参考url"",""children"":[]}]",markdown,2022-01-18T14:58:08.130Z,2022-01-18T15:04:59.801Z,markdown,en,1,1,"{""js"":"""",""css"":""""}"

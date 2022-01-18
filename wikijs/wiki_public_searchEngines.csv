@@ -1,0 +1,9 @@
+algolia,false,"{""appId"":"""",""apiKey"":"""",""indexName"":""wiki""}"
+aws,false,"{""domain"":"""",""endpoint"":"""",""region"":""us-east-1"",""accessKeyId"":"""",""secretAccessKey"":"""",""AnalysisSchemeLang"":""en""}"
+azure,false,"{""serviceName"":"""",""adminKey"":"""",""indexName"":""wiki""}"
+db,true,{}
+elasticsearch,false,"{""apiVersion"":""6.x"",""hosts"":"""",""indexName"":""wiki"",""analyzer"":""simple"",""sniffOnStart"":false,""sniffInterval"":0}"
+manticore,false,{}
+postgres,false,"{""dictLanguage"":""english""}"
+solr,false,"{""host"":""solr"",""port"":8983,""core"":""wiki"",""protocol"":""http""}"
+sphinx,false,{}

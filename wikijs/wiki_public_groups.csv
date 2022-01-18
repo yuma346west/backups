@@ -1,0 +1,2 @@
+1,Administrators,"[""manage:system""]",[],true,2022-01-18T13:54:58.981Z,2022-01-18T13:54:58.981Z,/
+2,Guests,"[""read:pages"",""read:assets"",""read:comments""]","[{""id"":""guest"",""roles"":[""read:pages"",""read:assets"",""read:comments""],""match"":""START"",""deny"":false,""path"":"""",""locales"":[]}]",true,2022-01-18T13:54:58.986Z,2022-01-18T13:54:58.986Z,/
